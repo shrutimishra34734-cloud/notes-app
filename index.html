@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Notes App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Notes App</h1>
+
+    <form id="noteForm">
+
+        <input
+            type="text"
+            id="title"
+            placeholder="Enter Title"
+            required
+        >
+
+        <textarea
+            id="content"
+            placeholder="Enter Content"
+            required
+        ></textarea>
+
+        <label>
+
+            <input type="checkbox" id="pinned">
+
+            Pin Note
+
+        </label>
+
+        <button type="submit">
+            Add Note
+        </button>
+
+    </form>
+
+    <div id="notesContainer"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
