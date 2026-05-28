@@ -1,0 +1,39 @@
+body {
+
+    font-family: Arial;
+    background: #f3f3f3;
+    padding: 20px;
+
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 10px;
+
+}
+
+input,
+textarea {
+
+    padding: 10px;
+
+}
+
+button {
+
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.note {
+
+    background: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+
+}
